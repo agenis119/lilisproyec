@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+}
+
+
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .imagen-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+ }
+
+
+.imagen-principal img {
+    width: 25rem;
+    object-fit: cover;
+    display: block;   
+    border-radius: 25%;
+}
+
+
+.lista-imagenes img{
+    width: 100%;
+    object-fit: cover;
+    padding-left: 10px;
+    width: 320px;
+    height: 200px;
+    border-radius: 15%;
+  
+    
+}
+
+.lista-imagenes{
+    display: flex;
+    overflow: auto;
+    width: 70%;
+   margin: 0 auto;
+   padding-top: auto;
+      
+}
+
+.titulo-carrusel {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 0%;
+}
+
+section article .lista-imagenes {
+    transition: box-shadow 0.3s ease;
+    padding: 5rem;
+}
+
+section article img:hover{
+   
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
+}
+
+
+.Quien-somos {
+    text-align: center;
+    background-color:blue;
+    color: aliceblue;
+    
+}
+
+.Quien-somos p{
+    font-size: 3rem;
+}
+
+.Quien-somos h2 {
+    font-size: 5rem;
+}
+
+footer {
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+ 
+footer a{
+    float: right;
+}
+
+.fin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactanos h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 5rem; 
+}
+
+
+
+   
+        .social img{
+            width: 100px;
+            height: 100px;          
+            
+        }
+		
+        
